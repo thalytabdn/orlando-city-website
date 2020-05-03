@@ -15,6 +15,26 @@
 	<body>
 
 		<header>
+
+			<div id="menu-mobile-mask" class="visible-xs">
+
+			</div>
+
+			<div id="menu-mobile" class="visible-xs">
+
+					<ul class="list-unstyled">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="videos.html">Videos</a></li>
+							<li><a href="#">Tickets</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Schedule</a></li>
+					</ul>
+
+					<div class="bar-close">
+							<button type="button" class="btn btn-close"><i class="fa fa-close"></i></button>
+						</div>
+
+			</div>
 			
 			<div class="container">
 				<img id="logotipo" src="img/orlando-logo.png" alt="Logotipo">
@@ -23,6 +43,8 @@
 			<div class="header-black">
 				
 				<div class="container">
+
+					<input type="search" id="input-search-mobile" class="visible-xs" placeholder="search...">
 				
 					<button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
 					<button id="btn-search" type="button"><i class="fa fa-search"></i></button>
@@ -108,7 +130,7 @@
 							<img src="img/noticia-thumb.jpg" alt="Noticia">
 							<h3>Orlando City Acquires Goalkeeper Joe Bendik from Toronto FC</h3>
 							<time>December 21, 2015</time>
-						</div>chevron
+						</div>
 					</div>
 					<div class="item">
 						<div class="item-inner">
@@ -271,13 +293,13 @@
 									
 									<div class="row-fluid visible-xs">
 										<div class="col-xs-6">
-											<a href="#" class="btn btn-footer "><i class="fa fa-map-marker"></i>Location</a>
+											<a href="#" class="btn btn-footer"><i class="fa fa-map-marker"></i>Location</a>
 										</div>
 										<div class="col-xs-6">
 											<a href="#" class="btn btn-footer"><i class="fa fa-phone"></i>Call</a>
 										</div>
 									</div>
-
+									
 									<ul class="list-unstyled list-socials">
 										<li>
 											<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -291,8 +313,8 @@
 										<li>
 											<a href="#" target="_blank"><i class="fa fa-pinterest-p"></i></a>
 										</li>
-										<li>
-											<a href="#" target="_blank"><i class="fa fa-chevron-up"></i></a>
+										<li class="page-up">
+											<a href="#" id="page-up" target="_blank"><i class="fa fa-chevron-up"></i></a>
 										</li>
 									</ul>
 

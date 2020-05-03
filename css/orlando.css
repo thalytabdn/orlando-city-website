@@ -395,3 +395,7 @@ video {
 #btn-news-prev, #btn-news-next {
 	display: none;
 }
+
+.page-up{
+	display: none!important;
+}
